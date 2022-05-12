@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1cae810-69eb-4644-831c-d61e9bce20e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TransferThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnsynchBankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/threads-lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Drop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProducerConsumer/ProducerConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +31,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -47,7 +44,20 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ProducerConsumerExample">
+    <configuration name="ProducerConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumer.ProducerConsumerExample" />
+      <module name="threads-lab2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ProducerConsumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UnsynchBankTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UnsynchBankTest" />
       <module name="threads-lab2" />
@@ -57,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerExample" />
         <item itemvalue="Application.UnsynchBankTest" />
       </list>
     </recent_temporary>
